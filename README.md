@@ -1,5 +1,5 @@
 # Testing
 
-Testing 123 Testing 1234
+Note 1: Github has one key, and this key is shared for every commit done on their website.
 
-I will sign this with my GPG key, and hopefully everything works out.
+Note 2:
