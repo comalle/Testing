@@ -10,4 +10,6 @@ Note 4: Only the email matters when pushing a commit from a local machine. And g
 
 Note 5: Withwrite access, direct manipulation is perfectly fine. So, this could allow attackers to infiltrate a group by doing minor fixes, and then to scramble the code(to cause delays/just rollback the commit) or inject negative code as an attack.
 
-Note 6: Minor vulnerability with that someone could steal a computer and launch commits from there, likewise, as long as they can clone the branch, the may not need to even be a real user to make actual changes.
+Note 6: Minor vulnerability with that someone could steal a computer and launch commits from there, likewise, as long as they can clone the branch, the may not need to even be a real user to make actual changes (More of a github vulnerability).
+
+Note 7:
