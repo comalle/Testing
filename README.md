@@ -40,3 +40,5 @@ Notably, passphrase in a shared key is shared which further incentivises no pass
 PGP Key Signatures can be found for any repo that you have write access to. 
 
 Likewise, if you delete a key, it becomes unverified.
+
+So, we are now trying to see if it will actually commit as comalle again.
