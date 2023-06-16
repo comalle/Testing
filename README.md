@@ -19,4 +19,4 @@ Note 8: I just changed the email to my test user Dwight Eisenhower. So, this com
 
 Note 9: You have to add the ID to the key otherwise, it is unverified. This is however, trivially easy once known, and can be done in roughly less than a minute. Must add the ID before putting the key in your profile. But, when you do that, even previously unverified commits will become verified which seems a bit dangerous.
 
-Cannot add additional emails to your profile on Github.
+Note 10: Cannot add additional emails to your profile on Github. However, this can be circumvented by just having them saved as the key on your computer.
