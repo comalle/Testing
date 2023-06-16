@@ -37,4 +37,6 @@ Once you do, then every single commit seems to be done from the new ID regardles
 Note 11: Notably, there is a passphrase, but when it comes out is incredibly inconsistent along with the fact that the default is no passphrase at all. 
 Notably, passphrase in a shared key is shared which further incentivises no pass phrase to be used.
 
-PGP Key Signatures can be found for any repo that you have write access to. This
+PGP Key Signatures can be found for any repo that you have write access to. 
+
+Likewise, if you delete a key, it becomes unverified.
