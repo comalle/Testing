@@ -12,4 +12,4 @@ Note 5: Withwrite access, direct manipulation is perfectly fine. So, this could 
 
 Note 6: Minor vulnerability with that someone could steal a computer and launch commits from there, likewise, as long as they can clone the branch, the may not need to even be a real user to make actual changes (More of a github vulnerability).
 
-Note 7:
+Note 7: Github L
