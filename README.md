@@ -41,7 +41,7 @@ PGP Key Signatures can be found for any repo that you have write access to.
 
 Likewise, if you delete a key, it becomes unverified.
 
-So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added?
+So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added.
 
 Also, worth noting that the low end for Encryption is RSA 1024 from GPG which has been cracked previously. 
 It defaults to 2048, andlts to infinite key, and it defaults to having no passphrase which makes it entirely possible to have a crackable key with permanent access to everything you have by just following the defaults of GPG. 
