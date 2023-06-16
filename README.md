@@ -41,4 +41,4 @@ PGP Key Signatures can be found for any repo that you have write access to.
 
 Likewise, if you delete a key, it becomes unverified.
 
-So, we are now trying to see if it will actually commit as comalle again.
+So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added.
