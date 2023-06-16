@@ -19,6 +19,6 @@ Note 8: I just changed the email to my test user Dwight Eisenhower. So, this com
 
 Note 9: You have to add the ID to the key otherwise, it is unverified. This is however, trivially easy once known, and can be done in roughly less than a minute. Must add the ID before putting the key in your profile. But, when you do that, even previously unverified commits will become verified which seems a bit dangerous.
 
-Note 10: Cannot add additional emails to your profile on Github. However, this can be circumvented by just having them saved as the key on your computer, and ahving acces to their personal access token which is hard to solve for, but if they have it written down somehwere, which isn't unlikely considering their length and generally difficult to memorize nature, it can be easy to access.
+Note 10: Cannot add additional emails to your profile on Github. However, this can be circumvented by the shared key, however, there are notable issues with adding an id. Once you do, then every single commit seems to be done from the new ID regardless of whose credentials are used in the push. So, it seems very inconsistent.
 
 Notably, there is a passphrase, but when it comes out is incredibly inconsistent along with the fact that the default is no passphrase at all.
