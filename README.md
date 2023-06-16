@@ -15,4 +15,6 @@ Note 6: Minor vulnerability with that someone could steal a computer and launch 
 Note 7: As long as the key is known on a computer and associated with an account, you can make commits in that account's name. So, leave your computer open at work, then someone can make a commit in your name to cause potential damage. Possibly could occur on the same network if your private key is known or shared.
 Sidenote: This makes sharing keys very bad since if they know your Github Email and key, then they can do anything and have it be verified which makes key generation and management very important.
 
-Note 8: I just changed the email to my test user Dwight Eisenhower. So, this commit will now be in Dwight's name. I will even change the email back after the commit, and if you do so before you push, it will register it as unverified. Glad that they caught this edge case.
+Note 8: I just changed the email to my test user Dwight Eisenhower. So, this commit will now be in Dwight's name. However, it is currently unverified since the email doesn't match. However, the key is shared between accounts.
+
+Note 9: You have to add the ID to the key otherwise, it is unverified. This is however, trivially easy once known, and can be done in roughly less than a minute.
