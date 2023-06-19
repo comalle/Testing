@@ -37,15 +37,17 @@ Once you do, then every single commit seems to be done from the new ID regardles
 Note 11: Notably, there is a passphrase, but when it comes out is incredibly inconsistent along with the fact that the default is no passphrase at all. 
 Notably, passphrase in a shared key is shared which further incentivises no pass phrase to be used.
 
-PGP Key Signatures can be found for any repo that you have write access to. 
+Note 12: A shared crackable key could cause the entire verification for a project to be eliminated. 
+Possible to use multiple master keys or subkeys to reduce this threat.
+Should be noted that very few online resources actually cover subkeys and their benefits, but plenty cover how to generate master keys and use those for signing.
 
-If you delete a key, it becomes unverified.
+PGP Key Signatures can be found for any repo that you have write access to. Private repos require your git access token though which is seperate from the signing key.
+
+If you delete a key, it becomes unverified. Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
 
 So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added.
 
 Also, worth noting that the low end for Encryption is RSA 1024 from GPG which has been cracked previously. 
-It defaults to 2048, andlts to infinite key, and it defaults to having no passphrase which makes it entirely possible to have a crackable key with permanent access to everything you have by just following the defaults of GPG. 
-Also means since GPG signing has been available for a bit, that there could be legacy keys that are crackable. 
-Passphrases are also potentially susceptible to random guessing attacks if they are even made by the user.
-
-Potential for attack. Simple Javascript could be used to potentially retrieve a user's key as long as they have the appropriate authentication for it which is derived from the long personal tokens, that are hard to remember. 
+It defaults to 2048, and defaults to infinite key, and it defaults to having no passphrase which makes it entirely possible to have a (theoretically) crackable key with permanent access to everything you have by just following the defaults of GPG. 
+Also means since GPG signing has been available for a bit, that there could be legacy keys that are crackable and able to be used for false verification.
+Passphrases are also potentially susceptible to random guessing attacks if they are even made by the user. 
