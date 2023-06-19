@@ -60,6 +60,7 @@ Private repos require your git access token though which is seperate from the si
 The GPG public keys can be found using simple Javascript for anyone profile, but they require the Git Access Token.
 
 If you delete a key, it becomes unverified. Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
+Can resign with another kye after the fact in the case of it being compromised, but it is a time-consuming process which would take a while depending on the repository.
 
 So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added.
 
