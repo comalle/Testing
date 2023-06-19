@@ -41,6 +41,10 @@ Note 12: A shared crackable key could cause the entire verification for a projec
 Possible to use multiple master keys or subkeys to reduce this threat.
 Should be noted that very few online resources actually cover subkeys and their benefits, but plenty cover how to generate master keys and use those for signing.
 
+Note 13: Keys are not easily transportable. 
+Keys are stuck to the computer that they are on, and to set up on another computer is difficult.
+Items like Yubikey can be used to transport keys and subkeys around, but that now means that keys could be physically stolen or physically lost which depending on the person, may make the system less secure.
+
 PGP Key Signatures can be found for any repo that you have write access to. Private repos require your git access token though which is seperate from the signing key.
 
 If you delete a key, it becomes unverified. Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
