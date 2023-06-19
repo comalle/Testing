@@ -38,6 +38,7 @@ Note 11: Notably, there is a passphrase, but when it comes out is incredibly inc
 Notably, passphrase in a shared key is shared which further incentivises no pass phrase to be used.
 
 Note 12: A shared crackable key could cause the entire verification for a project to be eliminated. 
+Also, a shared key needs only to change the primary user to impersonate that user effectively making the verification pointless within any large enough group.
 Possible to use multiple master keys or subkeys to reduce this threat.
 Should be noted that very few online resources actually cover subkeys and their benefits, but plenty cover how to generate master keys and use those for signing.
 
