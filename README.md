@@ -54,7 +54,9 @@ However, a user can still designate whatever algorithim they want allowing for u
 Note 15: S/MIME also utilizes certificates for verification which means that the downsides from CA's who don't do their homework can cause issues.
 It also requires working closely with a third party and likely cause increased expenses along with the fact that certificates expire which may make older code appear less safe even if it is perfectly safe.
 
-PGP Key Signatures can be found for any repo that you have write access to. Private repos require your git access token though which is seperate from the signing key.
+Note 16: PGP Key Signatures can be found for any repo that you have write access to. 
+Private repos require your git access token though which is seperate from the signing key. 
+The GPG public keys can be found using simple Javascript for anyone profile, but they require the Git Access Token.
 
 If you delete a key, it becomes unverified. Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
 
