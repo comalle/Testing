@@ -46,10 +46,13 @@ Keys are stuck to the computer that they are on, and to set up on another comput
 Items like Yubikey can be used to transport keys and subkeys around, but that now means that keys could be physically stolen or physically lost which depending on the person, may make the system less secure.
 (Possible good question to see if they use YubiKey)
 
-Note 14: SSH keys can be cracked as long as a hacker knows who they're targeting and can get access to the computer hosting the ssh password. 
+Note 14: SSH keys can be cracked as long as a hacker knows who they're targeting and can get access to the computer hosting the ssh password, and they don't have expiration dates which could cause significant headaches in the future.
 Sidenote: SSH keys require later versions of GIT to even use which makes them have a limited rollout compared to GPG keys.
 Sidenote 2: The official Gitgub website has the SSH key's algorithim be ED25519 which is an excellent choice. 
 However, a user can still designate whatever algorithim they want allowing for users to use cracked or unsafe algorthims.
+
+Note 15: S/MIME also utilizes certificates for verification which means that the downsides from CA's who don't do their homework can cause issues.
+It also requires working closely with a third party and likely cause increased expenses along with the fact that certificates expire which may make older code appear less safe even if it is perfectly safe.
 
 PGP Key Signatures can be found for any repo that you have write access to. Private repos require your git access token though which is seperate from the signing key.
 
