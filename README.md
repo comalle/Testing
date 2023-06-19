@@ -1,4 +1,4 @@
-### Testing
+# Testing
 
 Note 1: Github has one key, and this key is shared for every commit done on their website.
 
@@ -59,7 +59,7 @@ Note 16: PGP Key Signatures can be found for any repo that you have write access
 Private repos require your git access token though which is seperate from the signing key. 
 The GPG public keys can be found using simple Javascript for anyone profile, but they require the Git Access Token.
 
-# Note 17:
+### Note 17:
 Would be important to ask about using subkeys particularly for GPG users as subkeys seem like an effective way to manage keys and to minimize some risks.
 
 If you delete a key, it becomes unverified. Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
