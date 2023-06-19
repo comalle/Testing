@@ -48,6 +48,8 @@ Items like Yubikey can be used to transport keys and subkeys around, but that no
 
 Note 14: SSH keys can be cracked as long as a hacker knows who they're targeting and can get access to the computer hosting the ssh password. 
 Sidenote: SSH keys require later versions of GIT to even use which makes them have a limited rollout compared to GPG keys.
+Sidenote 2: The official Gitgub website has the SSH key's algorithim be ED25519 which is an excellent choice. 
+However, a user can still designate whatever algorithim they want allowing for users to use cracked or unsafe algorthims.
 
 PGP Key Signatures can be found for any repo that you have write access to. Private repos require your git access token though which is seperate from the signing key.
 
