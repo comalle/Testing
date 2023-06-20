@@ -86,3 +86,5 @@ Passphrases are also potentially susceptible to random guessing attacks if they 
 Note 21: smimesign is not available for linux as there are no installation instructions for it.
 Theis means that smime is a lot harder to use for Linux users.
 S/MIME signing is possible as is, but this makes signing commits harder for Linux users even though S/MIME is not likely heavily used.
+
+Note 22: S/MIME signing appears to give a slightly different Javascript response than other GPG keys and indicate the associated email with the key within the key block. May need additional checking to fully verify.
