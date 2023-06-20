@@ -48,10 +48,10 @@ Items like Yubikey can be used to transport keys and subkeys around, but that no
 (Possible good question to see if they use YubiKey)
 
 ### Exception to Note 13 
-The current setup with the hydra and lab machines means that the user info is transferred between computers. 
-In this situation, access would just need ssh, and they could potentially crack utk passwords relatively easily.
-So, if a user doesn't hide their keys which would take additional steps, it can be accessed with a single command.
-It makes signing commits somewhat meaningless. (Perhaps hyperbolic, but it seems that way.
+**The current setup with the hydra and lab machines means that the user info is transferred between computers.**
+**In this situation, access would just need ssh, and they could potentially crack utk passwords relatively easily.**
+**So, if a user doesn't hide their keys which would take additional steps, it can be accessed with a single command.**
+**It makes signing commits somewhat meaningless. (Perhaps hyperbolic, but it seems that way.**
 
 Note 14: SSH keys can be cracked as long as a hacker knows who they're targeting and can get access to the computer hosting the ssh password, and they don't have expiration dates which could cause significant headaches in the future.
 Sidenote: SSH keys require later versions of GIT to even use which makes them have a limited rollout compared to GPG keys.
