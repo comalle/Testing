@@ -82,3 +82,6 @@ Also, worth noting that the low end for Encryption is RSA 1024 from GPG which ha
 It defaults to 2048, and defaults to infinite key, and it defaults to having no passphrase which makes it entirely possible to have a (theoretically) crackable key with permanent access to everything you have by just following the defaults of GPG. 
 Also means since GPG signing has been available for a bit, that there could be legacy keys that are crackable and able to be used for false verification.
 Passphrases are also potentially susceptible to random guessing attacks if they are even made by the user. 
+
+Note 21: smimesign is not available for linux as there are no installation instructions for it.
+Theis means that smime is a lot harder to use for Linux users.
