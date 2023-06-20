@@ -59,7 +59,7 @@ Sidenote 2: The official Gitgub website has the SSH key's algorithim be ED25519 
 However, a user can still designate whatever algorithim they want allowing for users to use cracked or unsafe algorthims.
 
 Note 15: S/MIME also utilizes certificates for verification which means that the downsides from CA's who don't do their homework can cause issues.
-It also requires working closely with a third party and likely cause increased expenses along with the fact that certificates expire which may make older code appear less safe even if it is perfectly safe.
+It also requires working closely with a third party and likely cause increased expenses for the benefit of a CA saying that this is authentic.
 
 Note 16: PGP Key Signatures can be found for any repo that you have write access to. 
 Private repos require your git access token though which is seperate from the signing key. 
@@ -69,8 +69,8 @@ The GPG public keys can be found using simple Javascript for anyone profile, but
 **Would be important to ask about using subkeys particularly for GPG users as subkeys seem like an effective way to manage keys and to minimize some risks while having their own drawbacks.**
 
 Note 18: If you delete a key, it becomes unverified.
-Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
-Can resign with another kye after the fact in the case of it being compromised, but it is a time-consuming process which would take a while depending on the repository.
+However, if a key naturally expires, then it actually remains verified. 
+Can resign with another key after the fact in the case of it being compromised, but it is a time-consuming process which would take a while depending on the repository.
 
 Note 19: 
 So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added.
