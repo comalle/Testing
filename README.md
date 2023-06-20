@@ -47,7 +47,7 @@ Keys are stuck to the computer that they are on, and to set up on another comput
 Items like Yubikey can be used to transport keys and subkeys around, but that now means that keys could be physically stolen or physically lost which depending on the person, may make the system less secure.
 (Possible good question to see if they use YubiKey)
 
-# Exception to Note 13 
+### Exception to Note 13 
 The current setup with the hydra and lab machines means that the user info is transferred between computers. 
 In this situation, access would just need ssh, and they could potentially crack utk passwords relatively easily.
 So, if a user doesn't hide their keys which would take additional steps, it can be accessed with a single command.
