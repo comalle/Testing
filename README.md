@@ -85,3 +85,4 @@ Passphrases are also potentially susceptible to random guessing attacks if they 
 
 Note 21: smimesign is not available for linux as there are no installation instructions for it.
 Theis means that smime is a lot harder to use for Linux users.
+More testing on S/MIME sign will require the ability to download seperate S/MIME tools made specifically for linux such as gnupg-2 smime.
