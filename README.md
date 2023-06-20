@@ -66,13 +66,18 @@ Private repos require your git access token though which is seperate from the si
 The GPG public keys can be found using simple Javascript for anyone profile, but they require the Git Access Token.
 
 ### Note 17:
-Would be important to ask about using subkeys particularly for GPG users as subkeys seem like an effective way to manage keys and to minimize some risks.
+**Would be important to ask about using subkeys particularly for GPG users as subkeys seem like an effective way to manage keys and to minimize some risks while having their own drawbacks.**
 
-If you delete a key, it becomes unverified. Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
+Note 18: If you delete a key, it becomes unverified.
+Which means that verification really only works as long as that key is there, and it would be a shame if it say expired like with S/MIME or was cracked like with RSA 1024.
 Can resign with another kye after the fact in the case of it being compromised, but it is a time-consuming process which would take a while depending on the repository.
 
+Note 19: 
 So, we are now trying to see if it will actually commit as comalle again, and it seems to only allow you to use the last person to be added.
+This is solely because the last user added becomes the primary user. 
+Some ways to get around this are to change the primary user or to get around this.
 
+Note 20:
 Also, worth noting that the low end for Encryption is RSA 1024 from GPG which has been cracked previously. 
 It defaults to 2048, and defaults to infinite key, and it defaults to having no passphrase which makes it entirely possible to have a (theoretically) crackable key with permanent access to everything you have by just following the defaults of GPG. 
 Also means since GPG signing has been available for a bit, that there could be legacy keys that are crackable and able to be used for false verification.
