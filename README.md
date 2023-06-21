@@ -100,4 +100,7 @@ But, still can do phony verified commits from the same computer.
 Likewise, S/MIME infrastructure on Github appears to be less developed or focused on. 
 Also, a CA that is bad but verified could technically verify malicious users or so on, but this feels mitigated by how much easier GPG would be to use in that case.
 
-
+Note 24: SSH keys have two versions which may cause further complications and annoyances for people. 
+However, only the signing key is used for signing. 
+It never expires which means that you would have to remove it manually every so often to maintain security which will unverify all the commits there.
+Plus, since they never expire, they will eventually be completely crackable. So, why use an SSH key? Because it is easier to generate.
