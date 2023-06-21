@@ -88,8 +88,10 @@ Note 21: smimesign is not available for linux as there are no installation instr
 Theis means that smime is a lot harder to use for Linux users. (Personal experience made this the biggest headache of a key to use)
 S/MIME signing is possible as is, but this makes signing commits harder for Linux users even though S/MIME is not likely heavily used.
 
-Note 22: S/MIME signing appears to give no javascript response. It is not handled as a key by the github api. And further, there seems to be nothing that makes even the commit even stand out.
-That might be the way to try to identify it, but it doesn't seem all too plausible.
+Note 22: S/MIME signing appears to give no javascript response. 
+It is not handled as a key by the github api. 
+And further, the only way to notice it is to check the github api through all commits and to see the massive size of the signed message.
+That might be the way to try to identify it, but it seems like it could vary a significant amount.
 
 Note 23: S/MIME signing is recommended to larger scale entities and corporations, but the only advantage appears to be verification from a CA.
 This likely has limited merit as a company could just generate a GPG key and use subkeys, and basically verify themselves with no change on Github. 
