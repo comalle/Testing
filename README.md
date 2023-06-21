@@ -80,6 +80,7 @@ Some ways to get around this are to change the primary user or to get around thi
 Note 20:
 Also, worth noting that the low end for Encryption is RSA 1024 from GPG which has been cracked previously. 
 It defaults to 2048, and defaults to infinite key, and it defaults to having no passphrase which makes it entirely possible to have a (theoretically) crackable key with permanent access to everything you have by just following the defaults of GPG. 
+When it defaults to nothing, it does tell you that this is genereally not recommended. How effective that is could be debatable.
 Also means since GPG signing has been available for a bit, that there could be legacy keys that are crackable and able to be used for false verification.
 Passphrases are also potentially susceptible to random guessing attacks if they are even made by the user. 
 
