@@ -95,3 +95,4 @@ This likely has limited merit as a company could just generate a GPG key and use
 Likewise, S/MIME infrastructure on Github appears to be less developed or focused on. 
 Also, a CA that is bad but verified could technically verify malicious users or so on, but this feels mitigated by how much easier GPG would be to use in that case.
 
+**geflte fish**
