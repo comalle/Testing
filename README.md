@@ -8,7 +8,8 @@ Note 3: Git can automatically assign someone's username and email.
 This can result in someone having a key, and it being them but still be unverified.
 
 Note 4: Only the email matters when pushing a commit from a local machine. 
-And github will not register any changes to just the username.
+And github will register any changes to just the username, but it won't care and default to the username associated with the email.
+Likewise, when pushing, you can just input anyone with write credentials to the repository that you're pushing to.
 
 Note 5: With write access, direct manipulation is perfectly fine. 
 So, this could allow attackers to infiltrate a group by doing minor fixes, and then to scramble the code(to cause delays) or inject negative code as an attack. 
