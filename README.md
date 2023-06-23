@@ -105,3 +105,10 @@ Note 24: SSH keys have two versions which may cause further complications and an
 However, only the signing key is used for signing. 
 It never expires which means that you would have to remove it manually every so often to maintain security which will unverify all the commits there.
 Plus, since they never expire, they will eventually be completely crackable. So, why use an SSH key? Because it is easier to generate.
+
+
+## Note 25:
+**It should be noted that GitHub users have an alarming tendency to post their private key, access tokens, and other such items into their repositories.** 
+**The largest result I could find is 518 thousand possible leaks of private keys by doing a simple search on Github's website.** 
+**Not even using their API that could also catch things like this.**
+### Losing one's private key or posting thme publicly completely nullifies the entire idea of signing commits.
