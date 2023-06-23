@@ -109,6 +109,6 @@ Plus, since they never expire, they will eventually be completely crackable. So,
 
 ## Note 25:
 **It should be noted that GitHub users have an alarming tendency to post their private key, access tokens, and other such items into their repositories.** 
-**The largest result I could find is 518 thousand possible leaks of private keys by doing a simple search on Github's website.** 
+**The largest result I could find is over 1 million possible leaks of private keys by doing a simple search on Github's website.** 
 **Not even using their API that could also catch things like this.**
 ### Losing one's private key or posting them publicly completely nullifies the entire idea of signing commits or verification.
