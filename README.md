@@ -122,3 +122,6 @@ So, hypothetically, unsigned malicious code could be injected there and having a
 Note 27: 
 Due to the nature of open-source development and due to the interconnectedness of open source systems, signing commits may mean little for project safety if your dependencies are compromised or get a spoofed signed commit.
 This makes circumnavigating signed commits extremely easy since their application isn't universal. 
+
+Note 28:
+The partially verified signature can allow malicious changes to slip in undetected as it frequently pops up with multiple coauthors as some don't set up keys.
