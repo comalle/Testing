@@ -116,3 +116,6 @@ Plus, since they never expire, they will eventually be completely crackable. So,
 ### Note 26:
 Even on repos that Github uses for its own signing commit process, not all of the commits are signed and verified which implies that even unsigned and unverified code can make it through to secure projects. 
 This also basically nullifies the signing system since it is perfectly valid code, but it just isn't signed.
+The linux repository is an even bigger example of this since the vast majority of the code isn't signed at all with only occasional verified or unverified signatures on some commits.
+So, hypothetically, unsigned malicious code could be injected there and having a signature might make it look more suspicious.
+
