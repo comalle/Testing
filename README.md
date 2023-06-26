@@ -113,15 +113,14 @@ Plus, since they never expire, they will eventually be completely crackable. So,
 **Not even using their API that could also catch things like this.**
 ### Losing one's private key or posting them publicly completely nullifies the entire idea of signing commits or verification.
 
-### Note 26:
-Even on repos that Github uses for its own signing commit process, not all of the commits are signed and verified which implies that even unsigned and unverified code can make it through to secure projects. 
+### Note 26: Even on repos that Github uses for its own signing commit process, not all of the commits are signed and verified which implies that even unsigned and unverified code can make it through to secure projects. 
 This also basically nullifies the signing system since it is perfectly valid code, but it just isn't signed.
 The linux repository is an even bigger example of this since the vast majority of the code isn't signed at all with only occasional verified or unverified signatures on some commits.
 So, hypothetically, unsigned malicious code could be injected there and having a signature might make it look more suspicious.
 
-Note 27: 
-Due to the nature of open-source development and due to the interconnectedness of open source systems, signing commits may mean little for project safety if your dependencies are compromised or get a spoofed signed commit.
-This makes circumnavigating signed commits extremely easy since their application isn't universal. 
+Note 27: Due to the nature of open-source development and due to the interconnectedness of open source systems, signing commits may mean little for project safety if your dependencies are compromised or get a spoofed signed commit.
+This makes circumnavigating signed commits extremely easy since their application may not be universal amongst dependiencies. 
+This means that there are multiple avenues for malicious code to slip through undetected.
 
-Note 28:
-The partially verified signature can allow malicious changes to slip in undetected as it frequently pops up with multiple coauthors as some don't set up keys.
+Note 28: The partially verified signature can allow malicious changes to slip in undetected as it frequently pops up with multiple coauthors as some don't set up keys.
+These changes would have to either slip by the other authors in the group or actively facilitated, but that is hardly impossible.
