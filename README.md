@@ -119,3 +119,6 @@ This also basically nullifies the signing system since it is perfectly valid cod
 The linux repository is an even bigger example of this since the vast majority of the code isn't signed at all with only occasional verified or unverified signatures on some commits.
 So, hypothetically, unsigned malicious code could be injected there and having a signature might make it look more suspicious.
 
+Note 27: 
+Due to the nature of open-source development and due to the interconnectedness of open source systems, signing commits may mean little for project safety if your dependencies are compromised or get a spoofed signed commit.
+This makes circumnavigating signed commits extremely easy since their application isn't universal. 
