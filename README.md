@@ -112,3 +112,7 @@ Plus, since they never expire, they will eventually be completely crackable. So,
 **The largest result I could find is over 1 million possible leaks of private keys by doing a simple search on Github's website.** 
 **Not even using their API that could also catch things like this.**
 ### Losing one's private key or posting them publicly completely nullifies the entire idea of signing commits or verification.
+
+### Note 26:
+Even on repos that Github uses for its own signing commit process, not all of the commits are signed and verified which implies that even unsigned and unverified code can make it through to secure projects. 
+This also basically nullifies the signing system since it is perfectly valid code, but it just isn't signed.
